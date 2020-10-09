@@ -4,14 +4,72 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
+
+<style>
+    body{
+		background-color: #638CB8;
+	}
+
+	input{
+		width: 50%;
+		padding: 12px 20px;
+		margin: 8px 0;
+		box-sizing: border-box;
+	}
+
+	.cancel{
+		background-color: #7392fa;
+        border: 1px solid #7392fa;
+        color: white;
+        text-decoration: none;
+        padding:5px 20% 5px 20%;
+        border-radius: 3px;
+        box-shadow: 0px -1px 10px -4px rgba(0,0,0,0.75);
+	}
+
+	.center-column{
+		width:600px;
+		margin: 254px auto;
+		padding:20px;
+		background-color: #fff;
+		border-radius: 3px;
+		box-shadow: 6px 2px 30px 0px rgba(0,0,0,0.75);
+	}
+
+	.item-row{
+		background-color: #906abd;
+		margin: 10px;
+		padding: 20px;
+		border-radius: 3px;
+		color: #fff;
+		font-size: 16px;
+		box-shadow: 0px -1px 10px -4px rgba(0,0,0,0.75);
+	}
+
+	.btn-danger{
+		background-color: #ff0000;
+        border: 1px solid #ff0000;
+        color: white;
+        text-decoration: none;
+        padding:6px;
+        font-weight: bolder;
+        border-radius: 3px;
+        width: 50%;
+        box-shadow: 0px -1px 10px -4px rgba(0,0,0,0.75);
+	}
+
+</style>
+</style>
+
 <body>
+    <div class="center-column">
 <p>Are you sure you want to delete "{{item}}"?</p>
 
-<a href="{% url 'list' %}">Cancel</a>
-
 <form method="POST" action="">
+    <a href="{% url 'list' %}" class="cancel">Cancel</a>
     {% csrf_token %}
-    <input type="submit" name="Confirm">
+    <button class="btn-danger" name="Confirm">Confirm</button>
 </form>
+</div>
 </body>
 </html>
