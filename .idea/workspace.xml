@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ecbae84-bcd1-4f76-88f4-0a8abe92db25" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks/templates/tasks/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/templates/tasks/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/templates/tasks/delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/templates/tasks/delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/templates/tasks/update_task.html" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/templates/tasks/update_task.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,5 +48,11 @@
       <updated>1602232342882</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="346" y="57" width="672" height="678" key="search.everywhere.popup" timestamp="1602328764784">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state x="346" y="57" width="672" height="678" key="search.everywhere.popup/0.0.1366.736@0.0.1366.736" timestamp="1602328764784" />
   </component>
 </project>
