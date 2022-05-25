@@ -1,6 +1,0 @@
-intall django : pip3 install django
-uninstall decouple : pip3 uninstall decouple
-install python-decouple : pip3 install python-decouple
-migrate:
-    python3 manage.py makemigrations
-    python3 manage.py migrate
